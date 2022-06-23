@@ -3,12 +3,12 @@ Sistema di gestione di prenotazione di eventi in modo concorrente in Java.
 
 Operazioni: 
 • un metodo “Crea(Nome,Posti)” per aggiungere un nuovo evento e i relativi posti
-disponibili solo se non esiste già un evento con lo stesso nome.
-• un metodo “Aggiungi(Nome,Posti)” per aggiungere nuovi posti ad un determinato evento
+disponibili solo se non esiste già un evento con lo stesso nome.<br>
+• un metodo “Aggiungi(Nome,Posti)” per aggiungere nuovi posti ad un determinato evento<br>
 • un metodo “Prenota(Nome,Posti)” per prenotare posti per un dato evento,
-il metodo deve essere bloccante se non ci sono abbastanza posti
-• un metodo “ListaEventi” per visualizzare su console eventi e posti ancora disponibili
-• un metodo “Chiudi(Nome)” che cancella l’evento e sblocca tutti i clienti in attesa di posti
+il metodo deve essere bloccante se non ci sono abbastanza posti<br>
+• un metodo “ListaEventi” per visualizzare su console eventi e posti ancora disponibili<br>
+• un metodo “Chiudi(Nome)” che cancella l’evento e sblocca tutti i clienti in attesa di posti<br>
 
 la struttura dati concorrente è di tipo HashMap gestita in modo tale da parallelizzare se possibile operazioni su eventi indipendenti tra loro
 
