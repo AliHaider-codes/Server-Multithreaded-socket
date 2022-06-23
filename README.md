@@ -1,7 +1,7 @@
 # Server-Multithreaded-socket
 Sistema di gestione di prenotazione di eventi in modo concorrente in Java.
 
-Operazioni: 
+Operazioni: <br>
 • un metodo “Crea(Nome,Posti)” per aggiungere un nuovo evento e i relativi posti
 disponibili solo se non esiste già un evento con lo stesso nome.<br>
 • un metodo “Aggiungi(Nome,Posti)” per aggiungere nuovi posti ad un determinato evento<br>
