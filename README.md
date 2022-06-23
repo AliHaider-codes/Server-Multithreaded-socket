@@ -8,7 +8,7 @@ Operations: <br>
 • a "List of Events" method to display events and seats still available on the console<br>
 • a "Close (Name)" method that cancels the event and unlocks all customers waiting for seats<br>
 
-the concurrent data structure is of the HashMap type managed in such a way as to parallelize, if possible, operations on independent events
+The concurrent data structure is HashMap managed in such a way as to parallelize, if possible, operations on independent events
 
 Clients use TCP communication to send requests (reservation and event list) to the server.
 
