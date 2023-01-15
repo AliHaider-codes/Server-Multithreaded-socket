@@ -2,11 +2,11 @@
 Concurrent event booking management system in Java.
 
 Operations: <br>
-• a "Create (Name, Seats)" method to add a new event and its available seats only if an event with the same name does not already exist.<br>
-• an “Add (Name, Seats)” method to add new places to a specific event<br>
-• a "Book (Name, Seats)" method to reserve seats for a given event, the method must be blocking if there are not enough seats<br>
-• a "List of Events" method to display events and seats still available on the console<br>
-• a "Close (Name)" method that cancels the event and unlocks all customers waiting for seats<br>
+• "Create (Name, Seats)" method to add a new event and its available seats only if an event with the same name does not already exist.<br>
+• “Add (Name, Seats)” method to add new places to a specific event<br>
+• "Book (Name, Seats)" method to reserve seats for a given event, the method must be blocking if there are not enough seats<br>
+• "List of Events" method to display events and seats still available on the console<br>
+• "Close (Name)" method that cancels the event and unlocks all customers waiting for seats<br>
 
 The concurrent data structure is HashMap managed in such a way as to parallelize, if possible, operations on independent events
 
